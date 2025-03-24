@@ -1,57 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estio incorporado</title>
+    <title>Estilo Incorporado</title>
     <style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
+        *{
+           margin: 0;
+           padding: 0; 
+        }
         body{
-            background: #d8edff;
+            background: #ffffff;
         }
         header{
-            background: #678dc7;
-            margin: 10px 20px 5px 25px; /*topo, direita.baixo,esquerda*/
+            background: #ead3ff;
+            margin: 10px 20px 5px 25px; /* topo, direito, baixo, esquerda */
         }
         main{
-            background: #678DC7;
-            padding: 20px 10px; /*topo, baixo, esquerda, direita*/
+            background: #b17fce;
+            padding: 20px 10px; /* topo baixo, esquerda direita      */
         }
-        p{
-            color: rgb(255, 255, 255);
+         p{
+            color: rgb(255, 0, 0);
         }
-        #c{
-            color: firebrick;
+
+        #primeiro-paragrafo{
+            color: rgb(49, 255, 255);
         }
         .paragrafo-padrao-classe{
-            color: #ff0;
+            color:gold
         }
         footer{
-            background: #678DC7;
-            color: #ffffff;
+            background:#513f68;
+            color: #FFF;
         }
     </style>
-</head> 
+</head>
+
 <body>
     <header>
-        <h1>TÍTULO PRINCIPAL</h1>
+        <h1>Título Principal</h1>
     </header>
     <main>
-        <h2>TITULO SECUNDÁRIO</h2>
-        <P id="c">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo expedita consectetur, eius earum aliquam nam asperiores illum et a mollitia dolor nemo adipisci obcaecati corporis porro doloribus similique voluptatem voluptatum!</P>
+        <h2>Título Secundário</h2>
+        <p id="primeiro-paragrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In impedit repudiandae culpa, placeat nihil omnis quae sit illo accusantium eum error aliquid quaerat reprehenderit voluptatum vero reiciendis odit iusto molestiae.</p>
         <section>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam veritatis? Quas reprehenderit possimus libero enim tenetur quaerat inventore, a nemo fuga! Hic eligendi commodi totam earum! Voluptatum, commodi veritatis.</p>
-                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam veritatis? Quas reprehenderit possimus libero enim tenetur quaerat inventore, a nemo fuga! Hic eligendi commodi totam earum! Voluptatum, commodi veritatis.</p>
-                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam veritatis? Quas reprehenderit possimus libero enim tenetur quaerat inventore, a nemo fuga! Hic eligendi commodi totam earum! Voluptatum, commodi veritatis.</p>
-            </article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis, fuga mollitia rem non fugiat sint. Quasi libero facere iusto pariatur magnam adipisci, neque voluptatibus officia id optio, numquam iste.
+            </p>
+            <p class="paragrafo-padrao-classe">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis, fuga mollitia rem non fugiat sint. Quasi libero facere iusto pariatur magnam adipisci, neque voluptatibus officia id optio, numquam iste.
+            </p>
+            <p class="paragrafo-padrao-classe">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis, fuga mollitia rem non fugiat sint. Quasi libero facere iusto pariatur magnam adipisci, neque voluptatibus officia id optio, numquam iste.
+            </p>
+        </article>
         </section>
     </main>
     <footer>
-        <address>&reg; Todos os direitos reservados</address>
+        <address>&reg; todos os direitos resevardos </address>
     </footer>
+    
 </body>
 </html>
