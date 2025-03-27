@@ -38,3 +38,11 @@ h3{
     background-size: cover;
 
 }
+.top-header header .container{
+    display:flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+}
