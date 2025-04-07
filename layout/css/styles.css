@@ -300,15 +300,6 @@ nav ul li{
 
 /* ready */
 
-.ready .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.ready p{
-    margin: 33px 0  53px;
-}
 .ready fieldset{
     display: flex;
     justify-content: space-between;
