@@ -1,19 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Winky Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-
 .container{
     width: 1328px;
     margin: auto;
 }
 
 /* header */
+
 header{
     padding: 20px;
-
 }
+
 h1{
     text-align: center;
 }
@@ -21,67 +21,86 @@ h1{
 /* nav */
 
 nav{
-    background: #BCBCBC;
+    background:  #BCBCBC;
     padding: 24px 0;
 }
+
 nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
+
 nav ul li a{
     color: #000;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 25px;
     text-decoration: none;
-    background: #fff;
+    background: #FFF;
     padding: 15px;
     transition: all ease-in-out 0.3s;
-    border-radius: 0 20px;
+    border-radius: 20px 0;
 }
-nav ul li a:hover{
+
+nav ul a:hover{
     background: #000;
     color: #FFF;
+    border-radius: 0 20px;
 }
 
 /* banner */
-#banner-img{
+
+#banner img{
     width: 100%;
+
 }
 
 /* posts */
-.post h2{
+
+.posts h2{
     text-align: center;
     margin: 91px 0 62px;
     font-size: 64px;
     
 }
 
-.post .container{
+.posts .container{
     display: flex;
     justify-content: space-between;
 }
-.post img{
-    border-radius: 20px 20px 0;
+
+.posts .card{
+    width: 360px;
 }
-.post h3{
+
+.posts img{
+    border-radius: 20px 20px 0 0;
+
+}
+
+.posts h3{
     font-size: 20px;
     margin: 16px 16px 0;
 }
-.post h4{
+
+.posts h4{
     margin-left: 16px;
     font-weight: normal;
 }
-.post p{
+
+.posts p{
     margin: 32px 16px;
 }
 
-.post a{
-    color: #fff;
+.posts a{
     background: #65558F;
+    color: #FFF;
     padding: 10px 24px;
     border-radius: 100px;
     font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .posts a:hover{
@@ -96,7 +115,7 @@ nav ul li a:hover{
 
 .footer-top .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-top: 1px solid #aaa;
 }
 
@@ -112,7 +131,6 @@ nav ul li a:hover{
     width: 95%;
     padding: 10px;
 }
-
 .footer-bottom p{
     display: flex;
     justify-content: center;
@@ -143,4 +161,3 @@ nav ul li a:hover{
 .footer-time img{
     margin: 20px;
 }
-
